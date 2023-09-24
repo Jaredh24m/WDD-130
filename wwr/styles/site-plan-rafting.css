@@ -9,10 +9,10 @@
     --heading-font: red, serif;
     --paragraph-font: gray, serif;
 
-    --nav-background-color:var(--acent2-color)
-    --nav-link-color:var(--acent1-color)
-    --nav-hover-link-color:var(--secondary-color)
-    --nav-hover-background-color:var(--primary-color)
+    --nav-background-color:var(--acent2-color);
+    --nav-link-color:var(--acent1-color);
+    --nav-hover-link-color:var(--secondary-color);
+    --nav-hover-background-color:var(--primary-color);
 }
 
 body {
@@ -23,7 +23,7 @@ body {
 
 h1, h2, h3, h4 {
     font-family: var(--heading-font);
-    color: var(--primary-color)
+    color: var(--primary-color);
 }
 
 header {
