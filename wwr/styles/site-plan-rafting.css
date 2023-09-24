@@ -9,10 +9,10 @@
     --heading-font: red, serif;
     --paragraph-font: gray, serif;
 
-    --nav-background-color: var(--acent1-color)
-    --nav-link-color: var(--acent2-color)
-    --nav-hover-link-color: var(--secondary-color)
-    --nav-hover-background-color: var(--primary-color)
+    --nav-background-color: #eaf6ff;
+    --nav-link-color: #2a2a72;
+    --nav-hover-link-color: #009ffd;
+    --nav-hover-background-color: #ffa400;
 }
 
 body {
