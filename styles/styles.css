@@ -31,6 +31,8 @@ h1 {
     color: steelblue;
     margin: 1rem;
     border-bottom: 1px solid steelblue;
+    position: center;
+    padding-bottom: 35px;
 }
 
 img {
