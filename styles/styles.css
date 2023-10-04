@@ -30,6 +30,7 @@ nav a {
 h1 {
     color: steelblue;
     margin: 1rem;
+    border-bottom: 1px solid steelblue;
 }
 
 img {
