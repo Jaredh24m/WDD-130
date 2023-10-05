@@ -9,10 +9,10 @@
     --heading-font: red, serif;
     --paragraph-font: gray, serif;
 
-    --nav-background-color:var(--acent2-color);
-    --nav-link-color:var(--acent1-color);
-    --nav-hover-link-color:var(--secondary-color);
-    --nav-hover-background-color:var(--primary-color);
+    --nav-background-color: var(--acent2-color);
+    --nav-link-color: var(--acent1-color);
+    --nav-hover-link-color: var(--secondary-color);
+    --nav-hover-background-color: var(--primary-color);
 }
 
 body {
@@ -21,14 +21,36 @@ body {
     padding: 20px;
 }
 
-h1, h2, h3, h4 {
+h2,
+h3,
+h4 {
     font-family: Roboto, Arial sans-serif;
     color: var(--heading-font);
+    justify-content: center;
 }
 
 header {
     padding: 20px;
     background-color: var(--secondary-color);
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 300px 1fr 2fr;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    max-width: 1000px;
+    border: 1px solid #333;
+    align-items: space-around;
+}
+
+.logo {
+    margin: 0 0.25rem 0 1rem;
+    width: 64px;
+    height: auto;
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: Acme, Arial, sans-serif;
 }
 
 p {
@@ -39,6 +61,29 @@ nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
+    text-align: center;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+}
+
+.navigation li {
+    flex: 1 1 100%;
+}
+
+.navigation a {
+    display: block;
+    color: navy;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: tomato;
+    font-weight: 700;
+    text-decoration: underline;
 }
 
 nav a {
@@ -48,11 +93,33 @@ nav a {
     padding: 1rem;
 }
 
-nav a:link, nav a:visited {
+nav a:link,
+nav a:visited {
     color: var(--nav-link-color);
 }
 
 nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
+}
+
+figure {
+    display: flex;
+    border: 1px solid rgb(70, 69, 69);
+    background: gray;
+    color: black;
+    font-weight: var(--heading-font);
+    width: 120px;
+    height: 300px;
+    line-height: 120px;
+    margin: 5px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    display: 800px;
 }

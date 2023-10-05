@@ -56,7 +56,8 @@ main {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2); /* 1️⃣ */
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    /* 1️⃣ */
     padding: 1rem;
     background-color: #eee;
     color: #333;
@@ -86,19 +87,21 @@ main img {
     margin: 0 0 1rem 1rem;
 }
 
-p  {
+p {
     padding: 0;
     margin: 1rem;
 }
+
 footer {
     margin-top: 1em;
     border-top: 1px solid #000;
     text-align: center;
 }
+
 /* Class Selectors */
 .box {
     margin: 1rem;
-    border: 1px solid rgba(0,0,0,.1);
+    border: 1px solid rgba(0, 0, 0, .1);
     padding: 1rem;
     background-color: #ddd;
     color: #000;
@@ -108,7 +111,9 @@ footer {
     padding-left: 2rem;
 }
 
-header, .grid, footer {
+header,
+.grid,
+footer {
     max-width: 840px;
     margin: 0 auto;
 }
