@@ -77,16 +77,16 @@ button:hover {
     background-color: darkgreen;
 }
 
-textarea {
+div {
     background-color: #3b3b3b;
     width: 400px;
     margin: 0 auto;
-    color: white;   
+    color: white; 
+    padding: 20px;  
 }
 
 footer {
     margin: 1rem;
-    width: 650px;
     text-align: center;
     font-size: 0.8em;
     color: #777;
