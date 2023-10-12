@@ -80,5 +80,15 @@ button:hover {
 textarea {
     background-color: #3b3b3b;
     width: 400px;
-    text-decoration: #eee;   
+    margin: 0 auto;
+    color: white;   
+}
+
+footer {
+    margin: 1rem;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8em;
+    color: #777;
+    border-top: 1px solid #ccc;
 }
