@@ -127,6 +127,7 @@ figure img {
 .container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
 }
 
@@ -143,4 +144,11 @@ main {
     margin: 0 auto;
     color: white; 
     padding: 40px;  
+}
+
+div.map {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    margin: 0 auto;
 }
