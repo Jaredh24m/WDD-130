@@ -62,6 +62,7 @@ header img {
 h1 {
     font-size: 2rem;
     font-family: Acme, Arial, sans-serif;
+    align-items: center;
 }
 
 p {
