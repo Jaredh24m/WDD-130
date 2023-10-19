@@ -137,3 +137,18 @@ footer {
     border: 1px solid cyan;
     align-items: center;
 }
+
+main {
+    background-color: #3b3b3b;
+    width: 400px;
+    margin: 0 auto;
+    color: white; 
+    padding: 40px;  
+}
+
+div.map {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    margin: 0 auto;
+}

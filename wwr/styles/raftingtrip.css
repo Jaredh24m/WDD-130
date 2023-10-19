@@ -131,6 +131,21 @@ figure img {
 
 }
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+
 footer {
     display: grid;
     grid-template-columns: 1fr 300px;
