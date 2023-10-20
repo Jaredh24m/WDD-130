@@ -1,139 +1,128 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
 
 :root {
-    --primary-color: #ffa400;
-    --secondary-color: #009ffd;
-    --acent1-color: #2a2a72;
-    --acent2-color: #eaf6ff;
+  --primary-color: #ffa400;
+  --secondary-color: #009ffd;
+  --acent1-color: #2a2a72;
+  --acent2-color: #eaf6ff;
 
-    --heading-font: red, serif;
-    --paragraph-font: gray, serif;
+  --heading-font: red, serif;
+  --paragraph-font: gray, serif;
 
-    --nav-background-color: var(--acent2-color);
-    --nav-link-color: var(--acent1-color);
-    --nav-hover-link-color: var(--secondary-color);
-    --nav-hover-background-color: var(--primary-color);
+  --nav-background-color: var(--acent2-color);
+  --nav-link-color: var(--acent1-color);
+  --nav-hover-link-color: var(--secondary-color);
+  --nav-hover-background-color: var(--primary-color);
 }
 
 body {
-    font-family: Roboto, Arial sans-serif;
-
+  font-family: Roboto, Arial sans-serif;
 }
 
 h2 {
-    font-family: Roboto, Arial sans-serif;
-    color: var(--heading-font);
-    justify-content: center;
-    align-items: center;
-    display: flex;
+  font-family: Roboto, Arial sans-serif;
+  color: var(--heading-font);
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 header {
-    padding: 20px;
-    background-color: var(--secondary-color);
-    display: grid;
-    grid-template-columns: 300px 1fr;
-    align-items: center;
-}
-
-header,
-main,
-footer {
-    max-width: 1000px;
-    margin: 0 auto;
+  padding: 20px;
+  background-color: var(--secondary-color);
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  align-items: center;
 }
 
 header img {
-    width: 150px;
-    height: auto;
-    padding: 20px;
+  width: 150px;
+  height: auto;
+  padding: 20px;
 }
 
 .logo {
-    margin: 0 0.25rem 0 1rem;
-    width: 64px;
-    height: auto;
+  margin: 0 0.25rem 0 1rem;
+  width: 64px;
+  height: auto;
 }
 
 .hero img {
-    width: 100%;
+  width: 100%;
 }
 
 h1 {
-    font-size: 2rem;
-    font-family: Acme, Arial, sans-serif;
-    justify-content: center;
-    align-items: center;
-    display: grid;
+  font-size: 2rem;
+  font-family: Acme, Arial, sans-serif;
+  justify-content: center;
+  align-items: center;
+  display: grid;
 }
 
 p {
-    padding: 25px;
-    margin: 0 auto;
-    display: flex;
-    align-items:flex-start;
-    justify-content: center;
+  padding: 25px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 nav {
-    background-color: var(--nav-background-color);
-    font-size: 1.2rem;
-    text-align: center;
-    justify-content: space-around;
+  background-color: var(--nav-background-color);
+  font-size: 1.2rem;
+  text-align: center;
+  justify-content: space-around;
 }
 
 .navigation {
-    display: flex;
-    list-style: none;
-    padding: 0;
+  display: flex;
+  list-style: none;
+  padding: 0;
 }
 
 .navigation li {
-    flex: 1 1 100%;
+  flex: 1 1 100%;
 }
 
 .navigation a {
-    display: block;
-    text-align: center;
-    padding: 20px;
-    text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
 }
 
 .navigation a:hover {
-    color: tomato;
-    font-weight: 700;
-    text-decoration: underline;
+  color: tomato;
+  font-weight: 700;
+  text-decoration: underline;
 }
-
 
 nav a:link,
 nav a:visited {
-    color: var(--nav-link-color);
+  color: var(--nav-link-color);
 }
 
-
 figure {
-    display: grid;
-    font-weight: var(--heading-font);
-    margin-right: 1px;
-    margin-left: 1px;
-    margin: 0 auto;
+  display: grid;
+  font-weight: var(--heading-font);
+  margin-right: 1px;
+  margin-left: 1px;
+  margin: 0 auto;
 }
 
 figure img {
-    width: 200px;
+  width: 200px;
 }
 
 .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 footer {
-    display: grid;
-    grid-template-columns: 1fr 300px;
-    border: 1px solid cyan;
-    align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  border: 1px solid cyan;
+  align-items: center;
 }
